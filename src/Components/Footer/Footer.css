@@ -1,0 +1,18 @@
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cont a{
+    display: block;
+    color: #FFFFFFB3;
+    margin: 1.5rem 0;
+}
+.q1{
+    color: #FFFFFFB3;
+    margin-left: 9rem;
+}

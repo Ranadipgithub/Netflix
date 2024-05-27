@@ -1,0 +1,76 @@
+.hero{
+    width: 100%;
+    min-height: 125vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.6) 70%, rgba(0, 0, 0, 0.8) 100%), url('../../assets/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+.hero-text{
+    text-align: center;
+}
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.hero-text h2{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.hero-text h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+input{
+    width: 400px;
+    padding: 20px 16px;
+    background: transparent;
+    border: 1px solid rgb(132, 129, 129);
+    border-radius: 0.3rem;
+    outline: 0;
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.5) 100%);
+    /* margin-bottom: 30vh; */
+}
+
+/*-----------media query----------*/
+
+@media (max-width: 960px){
+    .hero-text h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .hero-text h2{
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+    .hero-text h3{
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+    .hero{
+        min-height: 95vh;
+    }
+    input{
+        margin-bottom: 0vh;
+    }
+}
+
+@media(max-width: 667px){
+    .large-btn{
+        margin-top: 1rem;
+    }
+    input{
+        width: 300px;
+    }
+}

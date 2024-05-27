@@ -1,0 +1,37 @@
+nav{
+    width: 100%;
+    padding: 24px 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    /* position: fixed; */
+}
+.logo{
+    width: 150px;
+}
+select{
+    width: 120px;
+    padding: 6px 20px;
+    border-radius: 0.3rem;
+    font-size: 16px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0.3) 100%);
+    color: white;
+}
+select option{
+    color: black;
+}
+
+button{
+    margin-left: 1.5rem;
+}
+
+/*-----------media query----------*/
+
+@media (max-width: 960px){
+    .logo{
+        width: 90px;
+    }
+}
